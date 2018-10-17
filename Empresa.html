@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+		<meta name="author" content="Álvaro Oliveira">
+
+        <title>Curso Bootstrap - PROJETO PRÁTICO</title>  
+        
+        <!-- CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" >
+        
+        <!-- css personalizado -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen" >
+        
+    </head>
+    <body data-spy ="scroll" data-target=".menu-navegacao" data-offset="80">
+        
+        <!-- MENU DE NAVEGAÇÃO -->    
+            <nav class="navbar navbar-default navbar-fixed-top ">
+        <div class="container">
+            <div class="navbar-header">
+				
+                <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#menu-navegacao" >
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+              </button>   
+                <a class="navbar-brand" href="#">Toledo Store</a>
+          </div>  
+          
+           <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#page-top"></a></li>
+					<li>
+                        <a class="" href="#quemsomos">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a class="" href="#servicos">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="" href="#Prototipo">Protótipo</a>
+                    </li>
+                    <li>
+                        <a class="" href="#portfolio">Portfolio</a>
+                    </li>  
+                    
+                    <li>
+                        <a class="" href="#Localizaçao">Localização</a>
+                    </li>
+                   
+                
+                    <li>
+                        <a class="" href="#Contatos"> Contatos</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+      </nav>
+        <!-- // MENU DE NAVEGAÇÃO -->
+        
+        <!-- SLIDER -->
+            <div class="divslider">
+        <div class="container">
+            <div class="col-xs-12">
+                <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+                    
+                    <!-- IMAGENS DO CAROUSEL -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="imgs/slider/slider1.jpg" alt="Imagem slider 1">
+                        </div>
+                    
+                        <div class="item">
+                            <img src="imgs/slider/slider3.jpg" alt="Imagem slider 2">
+                        </div>
+                        
+                    </div>  
+          
+
+		    <!-- AS BOLINHAS MARCADORAS QUE FICAM EM SOBRE AS IMAGENS -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#sliderprincipal" data-slide-to="0" class="active"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="2"></li>
+                    </ol>
+                    
+                </div>
+            </div>
+        </div>
+      </div>      
+        <!-- // SLIDER -->
+        
+        <!-- QUEM SOMOS -->
+          <section id="quemsomos" class="div_colorida">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 style="color:white">Quem Somos</h1>
+                    </div>                 
+                </div>
+              
+                   <div class="row">
+                       <br/>
+                       <div class="col-md-12">
+                          
+                               <h4>A Empresa</h4>
+                               <p>O projeto da Toledo Store surgiu com a criação de uma loja com produtos exclusivos com a logomarca Toledo, voltada para os alunos da instituição, desenvolvido por alunos do curso de Sistemas de Informação, cujo objetivo do grupo era desenvolver um projeto para a disciplina de Design Thinking. O foco era solucionar a necessidade dos alunos conseguirem adquirir produtos com a marca da Toledo.
+Através de pesquisa com os alunos da faculdade, conseguimos perceber que havia uma dificuldade para obter um produto personalizado da Toledo por tempo de espera, quantidade limitada de produtos e variedade.
+Procuramos o departamento de marketing do centro universitário, atual responsável pelos produtos da Toledo para entendermos o processo de elaboração e divulgação de produtos desenvolvido.
+Com base nas informações e percepções obtidas, conseguimos elaborar o Canvas, contendo informações importantes sobre a loja e a criação de um site personalizado.
+                           </p>
+                           <p>
+                               A “Loja Toledo” surgiu como um projeto da matéria Design Thinking, envolvendo alunos do 1º, 3º e 5º termos do curso de graduação de Sistemas de Informação da Toledo Prudente. Utilizamos o Design Thinking como método para abordar os problemas de forma empática, a fim de nos colocar no centro do desenvolvimento do projeto, nos permitindo trabalhar com os problemas de forma mais ampla. Para que esse método funcione o projeto tem que ser baseado em algo desejável às pessoas, financeiramente viável e tecnicamente possível. Usamos também, o diagrama do Duplo Diamante para nos auxiliar nas etapas do projeto.
+                               O objetivo inicial era verificar, por meio de pesquisa, qual era o nível de popularidade da “Loja Toledo”, se os alunos a conheciam, se já haviam comprado algum produto com a logo da Toledo, ou até mesmo, quais as dificuldades para se adquirir um produto.
+                               Através da pesquisa conseguimos diversas respostas que nos ajudou a trabalhar em cima do problema, tais como:
+
+                           </p>
+
+                           <li style="color:white">não havia variedade de produtos;</li>
+                           <li style="color:white">tinha que fazer encomenda das camisetas e havia demora para receber o produto;</li>
+                           <li style="color:white">a qualidade das camisetas não eram boas;</li>
+                           <li style="color:white">a solicitação de produtos era burocrática, tinha que formalizar o pedido por e-mail e demorava para receber uma resposta;</h4>
+                           <li style="color:white">nunca ouviu falar da “Loja Toledo”.</li>
+                           <br />
+                           <p>
+                               Com base nas respostas fomos investigar se realmente havia uma loja da Toledo. E para a surpresa de todos, descobrimos que ela não existia, e sim o departamento de marketing que comercializava os brindes que sobravam dos eventos realizados pelo centro universitário.
+                           </p>
+                           <p>
+                               Partindo dessas informações foi decidido que o objetivo principal do projeto era a implantação da “Loja Toledo”, ou na verdade, a criação de fato da loja, tirando de vez a responsabilidade do departamento de marketing e transferindo integralmente para a “Toledo Store” - nome fantasia escolhido pelo grupo - que será uma empresa terceirizada atuando dentro da instituição. O nosso foco é agregar valor ao produto com a marca Toledo. Afim de divulgar o nome da Toledo Prudente e obter retorno financeiro.
+
+                           </p>
+                   
+                           
+                           </div>
+
+                   </div>
+                   <div class="row">
+                      
+                       <div class="col-md-12">
+                           
+                               <h4 style="color:white">A Missão</h4>
+                               <p>Despertar o interesse e satisfazer a necessidade dos alunos do Centro Universitário Toledo em adquirir produtos com a marca Toledo.</p>
+                           
+                           
+                           
+                           
+                          
+                       </div>
+                   </div>
+
+               
+                
+                <div class="row"> 
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                        <h1 style="color:white">Equipe</h1>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                       
+                        <p>Renato de Matos - 1° Termo - Sistema de Informação  </p>
+                        <p>Victor  Martins - 1° Termo - Sistema de Informação  </p>
+                        <p>Isabela Bonome  - 1° Termo - Sistema de Informação  </p>
+                        <p>Wallans Santana - 3° Termo - Sistema de Informação  </p>
+                        <p>Gabriel Vruck   - 5° Termo - Sistema de Informação  </p>
+  
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="imgs/LOGO.png" class="img-responsive img-circle center-block">
+                    </div>
+                </div>
+            </div>
+          </section>
+        <!-- // canvas -->
+       
+        <!-- SERVIÇOS -->
+            <section id="servicos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                    <h1 style="color:black">Serviços</h1>
+                    </div>
+                    
+                    
+                </div>                 
+            </div>  
+            <div class="row">
+                <div class="col-sm-8 servicos-item text-center">
+                    <div><img src="imgs/exemplo.jpg " class="img-responsive   center-block "></div>
+                     <!--<h4  style="color:black" >Fotografias espetaculares</h4>
+                    <p  style="color:black" > texto  texto texto texto texto texto texto </p>-->
+                </div>
+                <div class="col-sm-4 servicos-item text-center ">
+                   
+                     <h2  style="color:black">Camisa Personalizada  </h2>
+                    <p  style="color:black">  </p>
+                </div>
+                
+            </div>
+            
+        </div>
+      </section>
+        <!-- // Prototipo -->
+        <section id="Prototipo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h1 style="color:black">Protótipo</h1>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-12 servicos-item text-center ">
+
+                        <h2 style="color:black">Exemplo de como seria a loja Toledo Store </h2>
+                        <p style="color:black">  </p>
+                    </div>
+                    <div class="col-md-12 servicos-item text-center">
+                        <div><img src="imgs/container.jpg " class="img-responsive   center-block "></div>
+
+                    </div>
+                   
+
+                </div>
+                
+                    
+
+            
+            </div>
+        </section>
+        <!-- // SERVIÇOS -->
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="div_colorida">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                   <div class="page-header">
+                    <h1 style="color:white">Portfolio</h1>
+                    </div>
+                </div>                 
+            </div>  
+            <div class="row">
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/blusa.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/garrafa.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/blusa3.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/bone.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/mouse.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/fotos.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/capdecel.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/capadenot.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/copo.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/direito.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imgs/bolsa.png" class="img-responsive">
+                    </div>
+                    <!--<h4>nome da foto</h4>-->
+                </div>
+            </div>
+
+               
+       </div>     
+      </section>
+        
+        <!-- // PORTFOLIO -->
+        
+        <!-- LOCALIZAÇÃO -->
+        <section id="Localizaçao">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                   <div class="page-header">
+                       <h1>Localização</h1>
+                    </div>
+                    
+                </div>                 
+            </div>  
+            <div class="row">
+                <div class="col-xs-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14785.281406652137!2d-51.3761541!3d-22.1137583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe26026b6f48163e!2sToledo+Prudente+Centro+Universit%C3%A1rio!5e0!3m2!1spt-BR!2sbr!4v1496007717880" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+      </section>
+        
+        <!-- // LOCALIZAÇÃO -->
+        
+        <!-- CONTATO -->
+        <section id="Contatos" class="div_colorida">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                    <h1 style="color:white">Contatos <br/>
+                        <small style="color:white">preencha o formulario abaixo para entrar em contato conosco</small></h1>
+                    </div>
+                </div>                 
+            </div>  
+            <div class="row">
+                <div class="col-xs-12">
+                    <form name="Formulario" id="formContato">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Informe seu nome *" required>
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg" placeholder="Informe seu Email *" required>
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control input-lg" placeholder="Informe seu Telefone " >
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control input-lg" placeholder="Digite aqui sua mengesagem *" required>
+                                
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                           
+                            <div class="col-sm-6">
+                                <button type="submit" class="btn btn-success btn-lg">Enviar Formulario</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+        <!-- // CONTATO -->
+        
+        <!-- RODAPÉ -->
+        <footer id="rodape" class="row">
+            &copy 2017 - Gabriel da cruz vruck
+        </footer>
+        <!-- // RODAPÉ -->
+        
+		
+        <!-- Adicionar Jquery -->
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        
+        <!-- Adicionar o Bootstrap js -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>        
+        
+    </body>
+</html>
